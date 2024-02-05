@@ -1,4 +1,4 @@
-import { Mybutton, ClickHandler } from "./MyButton"
+import { Mybutton } from "./MyButton"
 import { user } from "./user";
 
 let content;

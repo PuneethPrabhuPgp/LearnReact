@@ -3,19 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Mybutton } from './components/MyButton';
 import { MyApp } from './components/MyApp';
-import { Counter } from './components';
+import './styles/styles.css';
+import { Board } from './components/Board';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
   // <App />
-  <>
-    <App />
-    <MyApp />
-  </>
+  // <>
+  //   <App />
+  //   <MyApp />
+  // </>
   // </React.StrictMode>
+  <Board />
 );
 
 // If you want to start measuring performance in your app, pass a function
