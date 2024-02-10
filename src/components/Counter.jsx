@@ -6,7 +6,7 @@ const Counter = (props) => {
   const [count, setCount] = useState(0);
 
   const incCounter = () => {
-    setCount(count => count + 1);
+    setCount(count => ++count);
   }
 
   const decCounter = () => {

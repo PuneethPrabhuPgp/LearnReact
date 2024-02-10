@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './styles/styles.css';
-import Learn from './components/Learn';
+import Messenger from './components/Messnger';
+import Counter from './components/Counter';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-  <Learn />
+  <Counter />
   // </React.StrictMode>
 
 );
