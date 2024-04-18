@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import './styles/styles.css';
-import Effect from './components/Effect';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import "./styles/styles.css";
+import AddEmployee from "./components/AddEmployee";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  // <React.StrictMode>
-  <Effect />
-  // </React.StrictMode>
-
+	// <React.StrictMode>
+	<AddEmployee />,
+	// </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
